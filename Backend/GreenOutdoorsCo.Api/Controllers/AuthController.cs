@@ -1,3 +1,14 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
+using GreenOutdoorsCo.Api.Models;
+using GreenOutdoorsCo.Api.Services;
+
+
 [ApiController]
 [Route("api/[controller]")]
 public class AuthController : ControllerBase
