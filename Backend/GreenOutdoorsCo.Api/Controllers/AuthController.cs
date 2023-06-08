@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using GreenOutdoorsCo.Api.Models;
 using GreenOutdoorsCo.Api.Services;
-
+using GreenOutdoorsCo.Api.DTOs;
 
 [ApiController]
 [Route("api/[controller]")]

@@ -1,4 +1,6 @@
-public class Order
+namespace GreenOutdoorsCo.Api.Models
+{
+  public class Order
 {
     public int Id { get; set; }
     public int UserId { get; set; }
@@ -7,4 +9,5 @@ public class Order
     public Product? Product { get; set; }
     public int Quantity { get; set; }
     public DateTime CreatedAt { get; set; }
+  }
 }
