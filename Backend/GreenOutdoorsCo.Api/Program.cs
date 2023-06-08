@@ -1,8 +1,11 @@
+using GreenOutdoorsCo.Api.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
+// Add the DbContext to the service container
+builder.Services.AddDbContext<GreenOutdoorsDbContext>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
